@@ -777,7 +777,8 @@ section
 	margin-right: 18px;
 	cursor: pointer;
 }
-.sermon_buttons ul li img
+.sermon_buttons ul li img,
+.sermon_buttons ul li svg
 {
 	width: 27px;
 	height: 27px;
