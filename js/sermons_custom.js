@@ -43,7 +43,6 @@ $(document).ready(function()
 
 	initHeaderSearch();
 	initMenu();
-	initPastorsSlider();
 	initTimer();
 	initSvg();
 
