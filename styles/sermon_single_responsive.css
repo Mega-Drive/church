@@ -116,13 +116,9 @@
 	{
 		display: block;
 	}
-	.sermon_content
+	.sermon_buttons
 	{
-		margin-top: 42px;
-	}
-	.featured .sermon_content
-	{
-		margin-top: 0;
+		margin-top: 40px;
 	}
 	.newsletter_content
 	{
@@ -185,6 +181,10 @@
 	{
 		height: 286px;
 	}
+	.comment_input_email
+	{
+		margin-top: 28px;
+	}
 }
 
 /************
@@ -212,18 +212,6 @@
 		font-size: 10px;
 		line-height: 36px
 	}
-	.section_subtitle
-	{
-		font-size: 16px;
-	}
-	.header_content
-	{
-		height: 65px;
-	}
-	.header.scrolled .header_content
-	{
-		height: 65px;
-	}
 	.home_container
 	{
 		height: 215px;
@@ -236,6 +224,18 @@
 	.breadcrumbs li a
 	{
 		font-size: 12px;
+	}
+	.section_subtitle
+	{
+		font-size: 16px;
+	}
+	.header_content
+	{
+		height: 65px;
+	}
+	.header.scrolled .header_content
+	{
+		height: 65px;
 	}
 	.cross_1
 	{
@@ -275,20 +275,14 @@
 		padding-left: 15px;
 		padding-right: 15px;
 	}
-	.featured_col
+	.sermon_pastor_image
 	{
-		padding-left: 20px;
-		padding-right: 20px;
+		width: 80px;
+		height: 80px;
 	}
-	.featured_col_2
+	.sermon_pastor_content
 	{
-		padding-left: 52px;
-		padding-right: 52px;
-	}
-	.featured_1
-	{
-		padding-left: 30px;
-		padding-right: 30px;
+		margin-left: 30px;
 	}
 	.newsletter_title
 	{

@@ -155,6 +155,10 @@
 	{
 		top: 0px;
 	}
+	.home_container
+	{
+		height: 286px;
+	}
 	.causes_slider_nav
 	{
 		display: none !important;
@@ -197,6 +201,19 @@
 	.header.scrolled .header_content
 	{
 		height: 65px;
+	}
+	.home_container
+	{
+		height: 215px;
+	}
+	.home_title
+	{
+		font-size: 24px;
+	}
+	.breadcrumbs li,
+	.breadcrumbs li a
+	{
+		font-size: 12px;
 	}
 	.cross_1
 	{

@@ -16,11 +16,10 @@
 	3.6 Hamburger
 4. Menu
 5. Home
-6. Sermon
-7. Popular Sermons
-8. Featured
-9. Newsletter
-10. Footer
+6. Blog
+	6.1 Blog Sidebar
+7. Newsletter
+8. Footer
 
 
 ******************************/
@@ -717,17 +716,286 @@ section
 }
 
 /*********************************
-6. Sermon
+6. Blog
 *********************************/
 
-.sermon
+.blog
 {
 	padding-top: 97px;
 	padding-bottom: 98px;
-	background: #f0f4f8;
-	border-bottom: solid 3px #eb4141;
+	background: #FFFFFF;
 }
-.sermon_background
+.blog_post
+{
+	margin-bottom: 98px;
+}
+.blog_image_container
+{
+	width: 100%;
+}
+.blog_image
+{
+	width: 100%;
+}
+.blog_image img
+{
+	max-width: 100%;
+}
+.news_date
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 94px;
+	height: 94px;
+	background: #eb4141;
+}
+.news_day
+{
+	font-size: 30px;
+	color: #FFFFFF;
+	line-height: 0.75;
+}
+.news_month
+{
+	font-size: 12px;
+	color: #FFFFFF;
+	line-height: 0.75;
+	margin-top: 10px;
+}
+.blog_title
+{
+	font-size: 24px;
+	font-weight: 500;
+	color: #000000;
+	margin-top: 31px;
+}
+.blog_meta
+{
+	margin-top: 1px;
+}
+.blog_meta ul li
+{
+	display: inline-block;
+	position: relative;
+	font-size: 11px;
+	font-weight: 500;
+	color: #eb4141;
+	margin-right: 4px;
+}
+.blog_meta ul li a
+{
+	font-size: 11px;
+	font-weight: 500;
+	color: #eb4141;
+}
+.blog_meta ul li:not(:last-child)::after
+{
+	content: '|';
+	margin-left: 8px;
+}
+.blog_text
+{
+	margin-top: 34px;
+}
+.blog_link
+{
+	margin-top: 17px;
+}
+.blog_link a
+{
+	font-size: 14px;
+	font-weight: 500;
+	font-style: italic;
+	color: #eb4141;
+}
+.blog_pages
+{
+	margin-top: -7px;
+}
+.blog_pages ul li
+{
+	display: inline-block;
+	position: relative;
+	margin-right: 2px;
+	line-height: 0.75;
+	padding-bottom: 3px;
+}
+.blog_pages ul li a
+{
+	font-size: 18px;
+	color: #000000;
+	font-weight: 500;
+	line-height: 0.75;
+}
+.blog_pages ul li.active a
+{
+	color: #eb4141;
+}
+.blog_pages ul li.active
+{
+	border-bottom: solid 2px #ffd600;
+}
+
+/*********************************
+6.1 Blog Sidebar
+*********************************/
+
+.blog_sidebar
+{
+	width: 100%;
+}
+.sidebar_section
+{
+	width: 100%;
+	margin-bottom: 90px;
+}
+.sidebar_section:last-child
+{
+	margin-bottom: 0;
+}
+.sidebar_search_input
+{
+	width: 100%;
+	height: 48px;
+	background: #efefef;
+	border: none;
+	outline: none;
+	padding-left: 20px;
+}
+.sidebar_search_button
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 56px;
+	background: transparent;
+	border: none;
+	outline: none;
+}
+.sidebar_search_input::-webkit-input-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #8e8e8e !important;
+}
+.sidebar_search_input:-moz-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #8e8e8e !important;
+}
+.sidebar_search_input::-moz-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #8e8e8e !important;
+} 
+.sidebar_search_input:-ms-input-placeholder
+{ 
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #8e8e8e !important;
+}
+.sidebar_search_input::input-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #8e8e8e !important;
+}
+.sidebar_title
+{
+	font-size: 20px;
+	font-weight: 500;
+	color: #000000;
+}
+.latest_news_container
+{
+	margin-top: 40px;
+}
+.latest_news:not(:last-child)
+{
+	margin-bottom: 20px;
+}
+.latest_news_image
+{
+	width: 69px;
+	height: 69px;
+}
+.latest_news_image img
+{
+	max-width: 100%;
+}
+.latest_news_content
+{
+	padding-left: 30px;
+}
+.latest_news_date
+{
+	font-size: 11px;
+	font-weight: 500;
+	color: #eb4141;
+}
+.latest_news_title
+{
+	margin-top: 7px;
+}
+.latest_news_title a
+{
+	font-size: 14px;
+	color: #000000;
+	font-weight: 500;
+	line-height: 1.71;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.latest_news_title a:hover
+{
+	color: #eb4141;
+}
+.sidebar_list
+{
+	margin-top: 36px;
+}
+.sidebar_list ul li:not(:last-child)
+{
+	margin-bottom: 27px;
+}
+.sidebar_list ul li a
+{
+	width: 100%;
+	font-size: 14px;
+	color: #7c7c7c;
+	font-weight: 500;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.sidebar_list ul li a:hover
+{
+	color: #eb4141;
+}
+.sidebar_quote
+{
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 57px;
+	padding-bottom: 57px;
+	text-align: center;
+}
+.sidebar_quote_background
 {
 	position: absolute;
 	top: 0;
@@ -738,191 +1006,26 @@ section
 	background-size: cover;
 	background-position: center center;
 }
-.sermon_row
-{
-	margin-top: 84px;
-}
-.sermon_image
-{
-	width: 100%;
-}
-.sermon_image img
-{
-	max-width: 100%;
-}
-.sermon_content
-{
-	width: 100%;
-	margin-top: -8px;
-}
-.sermon_title a
-{
-	font-size: 24px;
-	font-weight: 500;
-	color: #000000;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-.sermon_title a:hover
-{
-	color: #eb4141;
-}
-.sermon_list
-{
-	margin-top: 14px;
-}
-.sermon_list li
+.sidebar_quote_text
 {
 	font-size: 14px;
-	font-weight: 500;
-	color: #000000;
-	margin-bottom: 14px;
-}
-.sermon_list li:last-child
-{
-	margin-bottom: 0;
-}
-.sermon_list li a
-{
-	color: #eb4141;
-}
-.sermon_text
-{
-	margin-top: 33px;
-}
-.sermon_buttons
-{
-	margin-top: 64px;
-}
-.sermon_buttons ul li
-{
-	display: inline-block;
-	margin-right: 18px;
-	cursor: pointer;
-}
-.sermon_buttons ul li img,
-.sermon_buttons ul li svg
-{
-	width: 27px;
-	height: 27px;
-}
-.sermon_buttons ul li img svg
-{
-	max-width: 100%;
-}
-.svg path,
-.svg rect,
-.svg polygon
-{
-	fill: #c4c4c5;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-.sermon_item:hover .svg path,
-.sermon_item:hover .svg rect,
-.sermon_item:hover .svg polygon
-{
-	fill: #eb4141;
-}
-
-/*********************************
-7. Popular Sermons
-*********************************/
-
-.popular
-{
-	width: 100%;
-	background: #FFFFFF;
-	padding-top: 97px;
-}
-.popular_row
-{
-	margin-top: 85px;
-}
-.popular_item
-{
-	width: 100%;
-	margin-bottom: 98px;
-}
-.popular_image
-{
-	width: 100%;
-}
-.popular_image img
-{
-	max-width: 100%;
-}
-.popular .sermon_content
-{
-	margin-top: 42px;
-}
-.popular .sermon_buttons
-{
-	margin-top: 30px;
-}
-
-/*********************************
-8. Featured
-*********************************/
-
-.featured
-{
-
-}
-.featured_col
-{
-	padding-left: 44px;
-	padding-right: 44px;
-	padding-top: 43px;
-	padding-bottom: 45px;
-}
-.featured_background
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-.featured_1
-{
-	width: 100%;
-	border: solid 2px #eb4141;
-	padding-left: 158px;
-	padding-top: 67px;
-	padding-bottom: 66px;
-	padding-right: 140px;
-}
-.featured_col_2
-{
-	padding-left: 219px;
-	padding-top: 111px;
-	padding-bottom: 113px;
-	padding-right: 160px;
-}
-.featured_2
-{
-
-}
-.featured .sermon_title,
-.featured .sermon_list li,
-.featured .sermon_text p
-{
+	font-style: italic;
 	color: #FFFFFF;
+	font-weight: 500;
+	margin-top: 23px;
+	line-height: 2.14;
 }
-.featured .sermon_buttons
+.sidebar_quote_source
 {
 	margin-top: 30px;
+	font-size: 18px;
+	color: #e6c100;
+	font-style: italic;
+	font-weight: 500;
 }
 
 /*********************************
-9. Newsletter
+7. Newsletter
 *********************************/
 
 .newsletter
@@ -1003,7 +1106,7 @@ section
 }
 
 /*********************************
-10. Footer
+8. Footer
 *********************************/
 
 .footer

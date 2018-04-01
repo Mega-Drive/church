@@ -36,16 +36,7 @@
 
 @media only screen and (max-width: 1440px)
 {
-	.featured_1
-	{
-		padding-left: 98px;
-		padding-right: 80px;
-	}
-	.featured_col_2
-	{
-		padding-left: 142px;
-		padding-right: 122px;
-	}
+	
 }
 
 /************
@@ -72,16 +63,7 @@
 
 @media only screen and (max-width: 1199px)
 {
-	.featured_1
-	{
-		padding-left: 68px;
-		padding-right: 50px;
-	}
-	.featured_col_2
-	{
-		padding-left: 112px;
-		padding-right: 92px;
-	}
+	
 }
 
 /************
@@ -116,13 +98,26 @@
 	{
 		display: block;
 	}
-	.sermon_content
+	.contact_info_col,
+	.contact_info_image
 	{
-		margin-top: 42px;
+		margin-top: 91px;
 	}
-	.featured .sermon_content
+	.contact_input_email
 	{
-		margin-top: 0;
+		margin-top: 28px;
+	}
+	.loaders
+	{
+		padding-bottom: 0;
+	}
+	.loader_col:not(:last-child)
+	{
+		margin-bottom: 129px;
+	}
+	.ib_col:not(:last-child)
+	{
+		margin-bottom: 60px;
 	}
 	.newsletter_content
 	{
@@ -185,6 +180,10 @@
 	{
 		height: 286px;
 	}
+	.milestone
+	{
+		margin-bottom: 80px;
+	}
 }
 
 /************
@@ -212,18 +211,6 @@
 		font-size: 10px;
 		line-height: 36px
 	}
-	.section_subtitle
-	{
-		font-size: 16px;
-	}
-	.header_content
-	{
-		height: 65px;
-	}
-	.header.scrolled .header_content
-	{
-		height: 65px;
-	}
 	.home_container
 	{
 		height: 215px;
@@ -237,6 +224,18 @@
 	{
 		font-size: 12px;
 	}
+	.section_subtitle
+	{
+		font-size: 16px;
+	}
+	.header_content
+	{
+		height: 65px;
+	}
+	.header.scrolled .header_content
+	{
+		height: 65px;
+	}
 	.cross_1
 	{
 		height: 59px;
@@ -245,11 +244,6 @@
 	.cross_1 img
 	{
 		width: 34px !important;
-	}
-	.quote_text,
-	.quote_source
-	{
-		font-size: 14px;
 	}
 	.menu_close
 	{
@@ -275,20 +269,20 @@
 		padding-left: 15px;
 		padding-right: 15px;
 	}
-	.featured_col
+	.accordion div
 	{
-		padding-left: 20px;
-		padding-right: 20px;
+		font-size: 13px;
 	}
-	.featured_col_2
+	.tab
 	{
-		padding-left: 52px;
-		padding-right: 52px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 12px;
 	}
-	.featured_1
+	.tab_panels
 	{
-		padding-left: 30px;
-		padding-right: 30px;
+		padding-top: 30px;
+		padding-bottom: 35px;
 	}
 	.newsletter_title
 	{

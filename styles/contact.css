@@ -16,9 +16,9 @@
 	3.6 Hamburger
 4. Menu
 5. Home
-6. Sermon
-7. Popular Sermons
-8. Featured
+6. Contact Map
+7. Contact Info
+8. Contact Form
 9. Newsletter
 10. Footer
 
@@ -717,208 +717,201 @@ section
 }
 
 /*********************************
-6. Sermon
+6. Contact Map
 *********************************/
 
-.sermon
+.contact_map
 {
-	padding-top: 97px;
-	padding-bottom: 98px;
-	background: #f0f4f8;
-	border-bottom: solid 3px #eb4141;
+	width: 100%;
 }
-.sermon_background
+.map
 {
-	position: absolute;
-	top: 0;
-	left: 0;
+	width: 100%;
+}
+.google_map
+{
+	width: 100%;
+	height: 561px;
+}
+.map_container
+{
 	width: 100%;
 	height: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
+	overflow: hidden;
 }
-.sermon_row
-{
-	margin-top: 84px;
-}
-.sermon_image
+#map
 {
 	width: 100%;
-}
-.sermon_image img
-{
-	max-width: 100%;
-}
-.sermon_content
-{
-	width: 100%;
-	margin-top: -8px;
-}
-.sermon_title a
-{
-	font-size: 24px;
-	font-weight: 500;
-	color: #000000;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-.sermon_title a:hover
-{
-	color: #eb4141;
-}
-.sermon_list
-{
-	margin-top: 14px;
-}
-.sermon_list li
-{
-	font-size: 14px;
-	font-weight: 500;
-	color: #000000;
-	margin-bottom: 14px;
-}
-.sermon_list li:last-child
-{
-	margin-bottom: 0;
-}
-.sermon_list li a
-{
-	color: #eb4141;
-}
-.sermon_text
-{
-	margin-top: 33px;
-}
-.sermon_buttons
-{
-	margin-top: 64px;
-}
-.sermon_buttons ul li
-{
-	display: inline-block;
-	margin-right: 18px;
-	cursor: pointer;
-}
-.sermon_buttons ul li img,
-.sermon_buttons ul li svg
-{
-	width: 27px;
-	height: 27px;
-}
-.sermon_buttons ul li img svg
-{
-	max-width: 100%;
-}
-.svg path,
-.svg rect,
-.svg polygon
-{
-	fill: #c4c4c5;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-.sermon_item:hover .svg path,
-.sermon_item:hover .svg rect,
-.sermon_item:hover .svg polygon
-{
-	fill: #eb4141;
+	height: calc(100% + 30px);
 }
 
 /*********************************
-7. Popular Sermons
+7. Contact Info
 *********************************/
 
-.popular
+.contact_info
 {
 	width: 100%;
 	background: #FFFFFF;
 	padding-top: 97px;
+	padding-bottom: 98px;
 }
-.popular_row
+.contact_title
 {
-	margin-top: 85px;
+	font-size: 24px;
+	color: #000000;
+	line-height: 0.75;
+	font-weight: 500;
 }
-.popular_item
+.contact_info_content
 {
 	width: 100%;
-	margin-bottom: 98px;
 }
-.popular_image
+.contact_info_col
+{
+
+}
+.contact_info_image
 {
 	width: 100%;
 }
-.popular_image img
+.contact_info_image img
 {
 	max-width: 100%;
 }
-.popular .sermon_content
+.contact_info_location
 {
-	margin-top: 42px;
+	width: 100%;
 }
-.popular .sermon_buttons
+.contact_info_title
 {
-	margin-top: 30px;
+	display: inline-block;
+	font-size: 18px;
+	color: #000000;
+	font-weight: 500;
+	line-height: 1.4;
+	border-bottom: solid 2px #eb4141;
+}
+.contact_info_list
+{
+	margin-top: 40px;
+}
+.contact_info_list li
+{
+	font-size: 14px;
+	color: #6b6b6b;
+	font-weight: 500;
+	line-height: 1.71;
+}
+.contact_info_list li:not(:last-child)
+{
+	margin-bottom: 16px;
+}
+.contact_info_list li span
+{
+	color: #eb4141;
 }
 
 /*********************************
-8. Featured
+8. Contact Form
 *********************************/
 
-.featured
+.contact_form_section
 {
-
+	padding-bottom: 98px;
 }
-.featured_col
+.contact_form
 {
-	padding-left: 44px;
-	padding-right: 44px;
-	padding-top: 43px;
-	padding-bottom: 45px;
+	margin-top: 57px;
 }
-.featured_background
+.contact_input
 {
+	width: 100%;
+	height: 52px;
+	background: #ededed;
+	border: none;
+	outline: none;
+	padding-left: 25px;
+}
+.contact_text
+{
+	width: 100%;
+	height: 186px;
+	background: #ededed;
+	border: none;
+	outline: none;
+	padding-left: 25px;
+	margin-top: 28px;
+	padding-top: 20px;
+}
+.contact_input::-webkit-input-placeholder,
+.contact_text::-webkit-input-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #a4a4a4 !important;
+}
+.contact_input:-moz-placeholder,
+.contact_text:-moz-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #a4a4a4 !important;
+}
+.contact_input::-moz-placeholder,
+.contact_text::-moz-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #a4a4a4 !important;
+} 
+.contact_input:-ms-input-placeholder,
+.contact_text:-ms-input-placeholder
+{ 
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #a4a4a4 !important;
+}
+.contact_input::input-placeholder,
+.contact_text::input-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #a4a4a4 !important;
+}
+.contact_button
+{
+	position: relative;
+	width: 157px;
+	height: 54px;
+	border: none;
+	outline: none;
+	background: rgba(235,65,65,1);
+	font-size: 14px;
+	font-weight: 500;
+	color: #FFFFFF;
+	cursor: pointer;
+	margin-top: 23px;
+}
+.contact_button:hover
+{
+	background: rgba(235,65,65,0.75);
+}
+.contact_button::after
+{
+	display: block;
 	position: absolute;
-	top: 0;
+	bottom: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
-}
-.featured_1
-{
-	width: 100%;
-	border: solid 2px #eb4141;
-	padding-left: 158px;
-	padding-top: 67px;
-	padding-bottom: 66px;
-	padding-right: 140px;
-}
-.featured_col_2
-{
-	padding-left: 219px;
-	padding-top: 111px;
-	padding-bottom: 113px;
-	padding-right: 160px;
-}
-.featured_2
-{
-
-}
-.featured .sermon_title,
-.featured .sermon_list li,
-.featured .sermon_text p
-{
-	color: #FFFFFF;
-}
-.featured .sermon_buttons
-{
-	margin-top: 30px;
+	height: 2px;
+	background: #ffd600;
+	content: '';
 }
 
 /*********************************

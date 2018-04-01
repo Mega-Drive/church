@@ -36,16 +36,7 @@
 
 @media only screen and (max-width: 1440px)
 {
-	.featured_1
-	{
-		padding-left: 98px;
-		padding-right: 80px;
-	}
-	.featured_col_2
-	{
-		padding-left: 142px;
-		padding-right: 122px;
-	}
+	
 }
 
 /************
@@ -72,16 +63,7 @@
 
 @media only screen and (max-width: 1199px)
 {
-	.featured_1
-	{
-		padding-left: 68px;
-		padding-right: 50px;
-	}
-	.featured_col_2
-	{
-		padding-left: 112px;
-		padding-right: 92px;
-	}
+	
 }
 
 /************
@@ -116,13 +98,14 @@
 	{
 		display: block;
 	}
-	.sermon_content
+	.contact_info_col,
+	.contact_info_image
 	{
-		margin-top: 42px;
+		margin-top: 91px;
 	}
-	.featured .sermon_content
+	.contact_input_email
 	{
-		margin-top: 0;
+		margin-top: 28px;
 	}
 	.newsletter_content
 	{
@@ -212,18 +195,6 @@
 		font-size: 10px;
 		line-height: 36px
 	}
-	.section_subtitle
-	{
-		font-size: 16px;
-	}
-	.header_content
-	{
-		height: 65px;
-	}
-	.header.scrolled .header_content
-	{
-		height: 65px;
-	}
 	.home_container
 	{
 		height: 215px;
@@ -237,6 +208,18 @@
 	{
 		font-size: 12px;
 	}
+	.section_subtitle
+	{
+		font-size: 16px;
+	}
+	.header_content
+	{
+		height: 65px;
+	}
+	.header.scrolled .header_content
+	{
+		height: 65px;
+	}
 	.cross_1
 	{
 		height: 59px;
@@ -245,11 +228,6 @@
 	.cross_1 img
 	{
 		width: 34px !important;
-	}
-	.quote_text,
-	.quote_source
-	{
-		font-size: 14px;
 	}
 	.menu_close
 	{
@@ -275,20 +253,9 @@
 		padding-left: 15px;
 		padding-right: 15px;
 	}
-	.featured_col
+	.google_map
 	{
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	.featured_col_2
-	{
-		padding-left: 52px;
-		padding-right: 52px;
-	}
-	.featured_1
-	{
-		padding-left: 30px;
-		padding-right: 30px;
+		height: 361px;
 	}
 	.newsletter_title
 	{
